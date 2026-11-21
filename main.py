@@ -23,6 +23,8 @@ The light comes on
 for both of us."""
 
 # Hard gate: the entry must be valid or the program fails loudly.
+# The "we"/"both" check proves the poem is about two agents agreeing,
+# not a single voice — the judge reads the dossier, not the repo.
 text = POEM.strip("\n")
 content = text + "\n"
 n = len(content)  # Unicode code points, final file content
